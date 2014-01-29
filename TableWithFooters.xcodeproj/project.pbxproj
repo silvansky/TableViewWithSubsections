@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C551FFB6189698C7005C3AA1 /* VSCellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C551FFB5189698C7005C3AA1 /* VSCellInfo.m */; };
 		C5F703CA189168600022ACAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F703C9189168600022ACAC /* Foundation.framework */; };
 		C5F703CC189168600022ACAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F703CB189168600022ACAC /* CoreGraphics.framework */; };
 		C5F703CE189168600022ACAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F703CD189168600022ACAC /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		C5F703EB189168600022ACAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F703CD189168600022ACAC /* UIKit.framework */; };
 		C5F703F3189168600022ACAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F703F1189168600022ACAC /* InfoPlist.strings */; };
 		C5F703F5189168600022ACAC /* TableWithFootersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F703F4189168600022ACAC /* TableWithFootersTests.m */; };
+		C5F7040018916A7D0022ACAC /* VSSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F703FF18916A7D0022ACAC /* VSSectionInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C551FFB4189698C7005C3AA1 /* VSCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSCellInfo.h; sourceTree = "<group>"; };
+		C551FFB5189698C7005C3AA1 /* VSCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSCellInfo.m; sourceTree = "<group>"; };
 		C5F703C6189168600022ACAC /* TableWithFooters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableWithFooters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F703C9189168600022ACAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5F703CB189168600022ACAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		C5F703F0189168600022ACAC /* TableWithFootersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableWithFootersTests-Info.plist"; sourceTree = "<group>"; };
 		C5F703F2189168600022ACAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5F703F4189168600022ACAC /* TableWithFootersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableWithFootersTests.m; sourceTree = "<group>"; };
+		C5F703FE18916A7D0022ACAC /* VSSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSectionInfo.h; sourceTree = "<group>"; };
+		C5F703FF18916A7D0022ACAC /* VSSectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSectionInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				C5F703DB189168600022ACAC /* Main.storyboard */,
 				C5F703DE189168600022ACAC /* VSViewController.h */,
 				C5F703DF189168600022ACAC /* VSViewController.m */,
+				C551FFB4189698C7005C3AA1 /* VSCellInfo.h */,
+				C551FFB5189698C7005C3AA1 /* VSCellInfo.m */,
+				C5F703FE18916A7D0022ACAC /* VSSectionInfo.h */,
+				C5F703FF18916A7D0022ACAC /* VSSectionInfo.m */,
 				C5F703E1189168600022ACAC /* Images.xcassets */,
 				C5F703D0189168600022ACAC /* Supporting Files */,
 			);
@@ -250,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F7040018916A7D0022ACAC /* VSSectionInfo.m in Sources */,
 				C5F703E0189168600022ACAC /* VSViewController.m in Sources */,
 				C5F703D6189168600022ACAC /* main.m in Sources */,
 				C5F703DA189168600022ACAC /* VSAppDelegate.m in Sources */,
+				C551FFB6189698C7005C3AA1 /* VSCellInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +473,7 @@
 				C5F703FA189168600022ACAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5F703FB189168600022ACAC /* Build configuration list for PBXNativeTarget "TableWithFootersTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				C5F703FD189168600022ACAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
